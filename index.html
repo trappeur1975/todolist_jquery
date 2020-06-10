@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  <title>todoListJquery</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+</head>
+<body>
+    <main class="container d-flex justify-content-center align-items-center">
+      <div class="jumbotron m-auto"> 
+        <header class="row">
+          <h1 class="col-12 text-center">TodoList</h1>
+        </header>
+      
+        <section class="row">    
+          <input type="text" placeholder="ecrire ici votre tache puis appuyer sur la touche entrer" class="form-control">
+        </section>
+
+        <section class="row">  
+          <div id="task" class="col-12">
+          </div>
+        </section>
+
+        <footer class="row">
+            <div class="col-12">
+              <p> <strong>0</strong> taches a faire </p>
+                <button class="btn btn-primary"  id="toutes">Toutes</button>
+                <button class="btn btn-warning"  id="enCours">en cours</button>
+                <button class="btn btn-success"  id="terminer">terminer</button>
+                <button class="btn btn-danger"  id="supprimer">supprimer taches faites</button>
+            </div>
+        </footer>
+      </div>
+    </main>
+  <!-- </div> -->
+    <script src="javascript/monScriptJquery.js"></script>
+</body>
+
+</html>
